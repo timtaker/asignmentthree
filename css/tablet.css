@@ -1,5 +1,41 @@
 @media (max-width: 768px) {
+  .banner {
+    height: 300px;
+  }
+  .banner-info {
+    bottom: 40%;
+  }
   .nav-name {
     display: none;
+  }
+
+  .link:nth-child(2) {
+    border-right: none;
+  }
+
+  /* More info */
+  .job-container {
+    padding: 30px 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .job-skill h1 {
+    font-size: xx-large;
+  }
+  .job-skill h4 {
+    font-size: x-large;
+  }
+  /* project */
+  .cert-img {
+    width: 100%;
+    height: fit-content;
+  }
+  .cert-info {
+    width: 100%;
+  }
+  /* cert */
+  .cert-part {
+    flex-wrap: wrap;
   }
 }
