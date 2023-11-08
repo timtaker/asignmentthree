@@ -1,0 +1,15 @@
+@media (max-width: 576px) {
+  .nav-bar {
+    display: block;
+    align-items: left;
+  }
+  .nav-container {
+    display: block;
+    margin: 20px 20px;
+  }
+  .link {
+    justify-content: left;
+    border: None;
+    padding: 4px;
+  }
+}
