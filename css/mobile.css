@@ -1,15 +1,26 @@
 @media (max-width: 576px) {
-  .nav-bar {
+  .banner {
+    height: 250px;
+  }
+  .banner-info {
+    bottom: 30%;
+  }
+  /* .nav-bar {
     display: block;
     align-items: left;
   }
   .nav-container {
     display: block;
     margin: 20px 20px;
-  }
+  } */
   .link {
-    justify-content: left;
-    border: None;
-    padding: 4px;
+    padding: 8px 10px;
+  }
+  /* More info */
+  .job-container {
+    padding: 30px 30px;
+
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
